@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INVENTORY</title>
+	<meta charset="utf-8" />
+	<link href="inventory-style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="inventory-header">
+		<a href="index.html" class="inventory-site-name">iSki Rental</a>
+		<nav class="inventory-nav">
+			<ul>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="inventory.html">Inventory</a></li>
+				<li><a href="brands.html">Brands We Carry</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="inventory-title">
+		<p>Our Inventory</p>
+	</div>
+	
+	<div class="inventory-category">
+	<ul>
+  		<li><button onclick="board()" class="myButton">Snowboards</button></li>
+  		<li><button onclick="Skis()"class="myButton">Skis</button></li>  		
+	</ul>
+	</div>
+
+	<div>
+		<div id="center" style="width=100%; height:100%;">
+			<iframe src="skis.php" style="width:100%; height:800px;" frameborder="0"></iframe>
+		</div>
+	</div>
+</body>
+
+</html>
+	
+<script>
+var newDiv = document.createElement("IFRAME");
+  newDiv.setAttribute("height", "800px");
+  newDiv.setAttribute("frameBorder", "0");
+  newDiv.setAttribute("width","600%");
+  
+function board() {
+  newDiv.setAttribute("src", "board.php");
+  document.getElementById("center").innerHTML = "";
+  document.getElementById("center").appendChild(newDiv);
+}
+
+function Skis() {
+  newDiv.setAttribute("src", "skis.php");
+  document.getElementById("center").innerHTML = "";
+  document.getElementById("center").appendChild(newDiv);
+}
+</script>

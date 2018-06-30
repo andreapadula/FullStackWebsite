@@ -1,0 +1,111 @@
+body {
+	background: #1d1d1d;
+	color: white;
+  	overflow-x: hidden;
+}
+.inventory-category {
+	text-align: center;
+}
+.inventory-category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.inventory-category li {
+    display: inline;
+}
+.inventory-category button{
+	text-transform: uppercase;
+	background-color: #23afd2;
+  	color: white;
+	padding: 18px 40px;  
+	-webkit-transition: all 0.3s ease;  
+	transition: all 0.3s ease;
+}
+.inventory-header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.inventory-nav {
+	text-transform: uppercase;
+}
+.inventory-nav li {
+	float: left;
+	list-style: none;
+}
+.inventory-nav a {
+	background-color: #23afd2;
+  	color: white;
+	display: block;
+	padding: 18px 40px;  
+	-webkit-transition: all 0.3s ease;  
+	transition: all 0.3s ease;
+}
+.inventory-site-name {
+	background-color: #e84c3d;
+	display: block;
+	padding: 15px 55px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+.inventory-title p{
+	color: white;
+	text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+   	text-transform: uppercase;
+}
+/* bellow is class myButton */
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	/* font-weight:bold; */
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+	background:-moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:-ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc2a6', endColorstr='#eae0c2',GradientType=0);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* myButton's css looks long but it is also fancy to look at */

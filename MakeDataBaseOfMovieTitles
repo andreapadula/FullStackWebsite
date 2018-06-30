@@ -1,0 +1,43 @@
+CREATE DATABASE Brand;
+USE Brand;
+CREATE TABLE Brand (
+   title varchar(60)
+);
+
+Insert into Brand values ("4FRNT");
+Insert into Brand values ("Armada");
+Insert into Brand values ("Atomic");	
+Insert into Brand values ("Black Diamond Equipment");	
+Insert into Brand values ("Blizzard");
+Insert into Brand values ("Dynamic");	
+Insert into Brand values ("DPS");	
+Insert into Brand values ("Dynastar");
+Insert into Brand values ("Elan");
+Insert into Brand values ("The Faction Collective");	
+Insert into Brand values ("Fischer");
+Insert into Brand values ("Hart");
+Insert into Brand values ("Head");	
+Insert into Brand values ("Icelantic Skis");	
+Insert into Brand values ("K2");
+Insert into Brand values ("Kästle Ski");	
+Insert into Brand values ("Kneissl");	
+Insert into Brand values ("Line Skis");	
+Insert into Brand values ("Madshus");
+Insert into Brand values ("Miller Ski");	
+Insert into Brand values ("Meier Skis");	
+Insert into Brand values ("Moment Skis");
+Insert into Brand values ("Olin");
+Insert into Brand values ("ON3P Skis");
+Insert into Brand values ("Peltonen");	
+Insert into Brand values ("Pre alpine");
+Insert into Brand values ("Rønning Treski");	
+Insert into Brand values ("SkiTrab");
+Insert into Brand values ("Rossignol");
+Insert into Brand values ("Swallow");	
+Insert into Brand values ("Salomon");	
+Insert into Brand values ("Stöckli");	
+Insert into Brand values ("The Ski");	
+Insert into Brand values ("Voit");	
+Insert into Brand values ("Volant");
+Insert into Brand values ("Völk");	
+Insert into Brand values ("ZAG"); 
